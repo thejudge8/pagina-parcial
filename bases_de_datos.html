@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bases de Datos</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/lengua.css">
+    <script src="https://kit.fontawesome.com/791268bd33.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+
+       <div id="contenedor-header">
+        <div id="logo">
+            <img class="majora" id="majora" src="assets/img/akatsuki.png" alt="logo">
+        </div>
+        <div id="titulo">
+            <a href="index.html"><h1 id="tit">J.J. Company</h1></a>
+        </div>
+        <div id="user">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-google"></i> 
+        </div>
+    </div>
+          
+          <div class="container_menu">
+           <div class="menu">
+            <nav>
+                <ul>
+                    
+                    <li>  <a href="lengua.html"><i class="fa-solid fa-pen"></i>lengua y Comunicacion</a>
+                        <ul>
+                            <li><a href="lengua.html#lectura"><i class="fa-solid fa-book-open-reader"></i> La lectura</a></li>
+                            <li><a href="lengua.html#Oralidad"><i class="fa-solid fa-book"></i>Oralidad </a></li>
+                            <li><a href="lengua.html#Escritura"><i class="fa-solid fa-pen"></i>Escritura</a></li>
+                            
+                        </ul></li>
+                      <li><a href="bases_de_datos.html"><i class="fa-solid fa-database"></i>Bases de Datos</a>
+                      <ul>
+                          <li><a href="bases_de_datos.html#Participación">Participación y Dependencia de Existencia</a></li>
+                          <li><a href="bases_de_datos.html#Integridad">Reglas de Integridad</a></li>
+                          <li><a href="bases_de_datos.html#Algebra">Algebra Relacional</a></li>
+                          <li><a href="Herramienta.html">Ejercicio</a></li>
+                      </ul>
+                      </li>
+                      <li><a href="sistemas_op.html"> <i class="fa-brands fa-windows"></i>Sistemas Operativos</a>
+                        <ul>
+                            <li><a href="sistemas_op.html#Sistemas">Sistemas Operativos</a></li>
+                            <li><a href="sistemas_op.html#Kerner">Kerner</a></li>
+                            <li><a href="sistemas_op.html#Shell">Shell</a></li>
+                            <li><a href="sistemas_op.html#Llamada">Llamada al sistema</a></li>
+                            
+                        </ul>
+                    </li>
+                      <li><a href="programacion.html"><i class="fa-brands fa-html5"></i>Programación Web Front</a>
+                        <ul>
+                            <li><a href="programacion.html#Estructura">Estructura HTML</a></li>
+                            <li><a href="programacion.html#Etiquetas">Etiquetas HTML</a></li>
+                            
+                        </ul></li>
+                      <li><a href="calculo.html"> <i class="fa-solid fa-calculator"></i>Calculo III</a>
+                        <ul>
+                            <li><a href="calculo.html#parcial">Derivada parcial</a></li>
+                            <li><a href="calculo.html#superior">Derivada de orden superior</a></li>
+                            <li><a href="calculo.html#implicitas">Derivada implicitas</a></li>
+                        </ul></li>
+                      <li><a href="fisica.html"> <i class="fa-solid fa-car-side"></i>Física Mecanica</a>
+                        <ul>
+                            <li><a href="fisica.html#Uniforme">Movimiento Rectilíneo Uniforme</a></li>
+                            <li><a href="fisica.html#acelerado">Movimiento rectilíneo uniformemente acelerado</a></li>
+                            <li><a href="fisica.html#libre">Caída libre</a></li>
+                          
+                      </ul></li>
+                </ul>
+              </nav>
+           </div>
+             </div>
+           </header>
+           <main>
+            <section>
+                <h2>Bases de Datos</h2>
+            <div class="contein1">
+                <article>
+                    <h3> <a name="Participación"></a> Participación y Dependencia de Existencia</h3>
+                    <br>
+                    <p>Participación: Asociación entre conjuntos de entidades.
+                        <br>
+                        <ul class="puntos">
+                        <li> Participación total: Cada entidad de un conjunto de entidades participa al menos en una relación del conjunto de relaciones.</li>
+                        <li> Participación parcial: Sólo algunas entidades de un conjunto de entidades participan  en relaciones del conjunto de relaciones.</li>
+                        </ul>
+                        <br>
+                        Se dice que la dependencia es en existencia cuando las ocurrencias de un tipo de entidad débil no pueden existir sin la ocurrencia de la entidad regular de la que dependen. Se dice que la dependencia es en identificación cuando, además de lo anterior, las ocurrencias del tipo de entidad débil no se pueden identificar sólo mediante sus propios atributos, sino que se les tiene que añadir el identificador de la ocurrencia de la entidad regular de la cual dependen.
+                        <br>
+                        Además, se dice que una relación es exclusiva cuando la existencia de una relación entre dos tipos de entidades implica la no existencia de las otras relaciones.
+                    </p>
+                </article>
+            </div>
+            <div class="contein2">
+                <article>
+                    <h3> <a name="Integridad"></a> Regla de la Integridad</h3>
+                    <br>
+                    <p>Los conceptos básicos de integridad en el modelo relacional son el de llave primaria, llave foránea, valores nulos y un par de reglas de integridad.
+                        <br>
+                        Una llave primaria es uno o un conjunto de atributos que permiten identificar a las n-adas de manera única en cualquier momento.
+                        <br>
+                        Una llave foránea de una relación es un atributo que hace referencia a una llave primaria de otra relación; esto da pie a que una relación pueda tener variasllaves foráneas.</p>
+                </article>
+            </div>
+            <div class="contein3">
+                <article>
+                    <h3> <a name="Algebra"></a> Algebra Relacional</h3>
+                    <br>
+                    <p>Se llama álgebra relacional a un conjunto de operaciones simples sobre tablas relacionales, a partir de las cuales se definen operaciones más complejas mediante composición. Definen, por tanto, un pequeño lenguaje de manipulación de datos.
+                    <br>
+                    El elemento fundamental del modelo relacional de bases de datos es la tabla relacional. Una tabla relacional es una representación extensional de una relación definida sobre un cierto dominio.</p>
+                </article>
+            </section>
+        </div>
+           </main>
+           <footer>
+            &copy;Jair Guerrero Y Juan Camilo Hernández
+           </footer>
+</body>
+</html>
