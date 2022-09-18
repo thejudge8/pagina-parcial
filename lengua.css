@@ -1,0 +1,90 @@
+img{
+    width: 250px;
+    height: 120px;
+    
+}
+
+h2{
+    font-size: 40px;
+    margin: 10px;
+    text-align: center;
+    color: #4c0027;
+}
+
+h3{
+    font-size: 30px;
+    margin: 10px;
+    text-align:left;
+    color: #4c0027;
+}
+
+
+
+.contein1,.contein2,.contein3{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    border-radius: 0.5em;
+    padding: 0.5em;
+}
+
+.contein2{
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.img{
+    float: right;
+}
+.img3{
+    float: right;
+    margin-top: 2em;
+}
+
+
+.estr{
+    width: 500px;
+    height: 300px;
+    margin-top: 1em;
+    border-radius: 2em;
+}
+
+.deri{
+    width: 500px;
+    height: 200px;
+    margin: 2em;
+    border-radius: 2em;
+}
+.caida{
+    width: 350px;
+    height: 200px;
+    margin: 2em;
+    border-radius: 1em;
+}
+
+.figure1{
+    border: #131311 solid;
+    width: 90%;
+}
+.figure2{
+    border: #131311 solid;
+    width: 90%;
+}
+.diagrama{
+    width: 100%;
+    height: 600px; 
+}
+
+figcaption{
+    width: 100%;
+    background-color: #131311;
+    color: #fff;
+    text-align: center;
+}  
+.cont_figure{
+    margin-left: 200px;
+} 
+.cont_figure2{
+    margin-left: 200px;
+}
+
