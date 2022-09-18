@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Principal</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="table.css">
+    <script src="https://kit.fontawesome.com/791268bd33.js" 
+    crossorigin="anonymous"></script>
+
+    
+</head>
+<body>
+    <div id="contenedor">
+    <header>
+
+    <div id="contenedor-header">
+        <div id="logo">
+            <img class="majora" id="majora" src="assets/img/akatsuki.png" alt="logo">
+        </div>
+        <div id="titulo">
+            <a href="index.html"><h1 id="tit">J.J. Company</h1></a>
+        </div>
+        <div id="user">            
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-google"></i>
+        </div>
+    </div>
+   
+   <div class="container_menu">
+    <div class="menu">
+        <nav>
+          <ul>
+              
+              <li>  <a href="lengua.html"><i class="fa-solid fa-pen"></i>lengua y Comunicacion</a>
+                <ul>
+                    <li><a href="lengua.html#lectura"><i class="fa-solid fa-book-open-reader"></i> La lectura</a></li>
+                    <li><a href="lengua.html#Oralidad"><i class="fa-solid fa-book"></i>Oralidad </a></li>
+                    <li><a href="lengua.html#Escritura"><i class="fa-solid fa-pen"></i>Escritura</a></li>
+                    
+                </ul></li>
+              <li><a href="bases_de_datos.html"><i class="fa-solid fa-database"></i>Bases de Datos</a>
+              <ul>
+                  <li><a href="bases_de_datos.html#Participación">Participación y Dependencia de Existencia</a></li>
+                  <li><a href="bases_de_datos.html#Integridad">Reglas de Integridad</a></li>
+                  <li><a href="bases_de_datos.html#Algebra">Algebra Relacional</a></li>
+                  <li><a href="Herramienta.html">Ejercicio</a></li>
+              </ul>
+              </li>
+              <li><a href="sistemas_op.html"> <i class="fa-brands fa-windows"></i>Sistemas Operativos</a>
+                <ul>
+                    <li><a href="sistemas_op.html#Sistemas">Sistemas Operativos</a></li>
+                    <li><a href="sistemas_op.html#Kerner">Kerner</a></li>
+                    <li><a href="sistemas_op.html#Shell">Shell</a></li>
+                    <li><a href="sistemas_op.html#Llamada">Llamada al sistema</a></li>
+                    
+                </ul>
+            </li>
+              <li><a href="programacion.html"><i class="fa-brands fa-html5"></i>Programación Web Front</a>
+                <ul>
+                    <li><a href="programacion.html#Estructura">Estructura HTML</a></li>
+                    <li><a href="programacion.html#Etiquetas">Etiquetas HTML</a></li>
+                    
+                </ul></li>
+              <li><a href="calculo.html"> <i class="fa-solid fa-calculator"></i>Calculo III</a>
+                <ul>
+                    <li><a href="calculo.html#parcial">Derivada parcial</a></li>
+                    <li><a href="calculo.html#superior">Derivada de orden superior</a></li>
+                    <li><a href="calculo.html#implicitas">Derivada implicitas</a></li>
+                </ul></li>
+              <li><a href="fisica.html"> <i class="fa-solid fa-car-side"></i>Física Mecanica</a>
+                <ul>
+                    <li><a href="fisica.html#Uniforme">Movimiento Rectilíneo Uniforme</a></li>
+                    <li><a href="fisica.html#acelerado">Movimiento rectilíneo uniformemente acelerado</a></li>
+                    <li><a href="fisica.html#libre">Caída libre</a></li>
+                    
+                </ul></li>
+          </ul>
+        </nav>
+    </div>
+      </div>
+    </header>
+   <main id="main-mk">
+    <div id="c-tabla">
+        <div id="tabla">
+    <table border="2">
+        <h1>Horario</h1>
+    <tbody>
+        <tr>
+            <th>Horas</th>
+            <th>Lunes</th>
+            <th>Martes</th>
+            <th>Miercoles</th>
+            <th>Jueves</th>
+            <th>Viernes</th>
+        </tr>                  
+        <tr>
+            <th>07:00 - 08:00 AM</th>
+            <td class="len" rowspan="3">Lengua y Comunicacion</td>
+            <td class="vacio" rowspan="3"></td>
+            <td class="vacio"></td>
+            <td class="vacio"></td>
+            <td class="vacio" rowspan="5"></td>
+        </tr>
+
+        <tr>
+            <th>08:00 - 09:00 AM</class="vacio"th>                
+            <td class="sis" rowspan="2">Sistemas Operativos</td>
+            <td class="sis" rowspan="2">Sistemas Operativos</td>
+        </tr>
+
+        <tr>
+            <th>09:00 - 10:00 AM</th>                   
+        </tr>
+
+        <tr>
+            <th>10:00 - 11:00 AM</th>
+            <td class="vacio" rowspan="6"></td>
+            <td class="prog" rowspan="2">Programación Web Front</td>
+            <td class="vacio" rowspan="2"></td>
+            <td class="prog" rowspan="2">Programación Web Front</td>
+        </tr>
+
+        <tr>
+            <th>11:00 - 12:00 PM</th>                             
+        </tr>
+        <tr>
+            <th>12:00 - 01:00 PM</th>
+            <td class="base" rowspan="2">Bases de datos</td>
+            <td class="cal" rowspan="2">Calculo III</td>
+            <td class="base" rowspan="2">Bases de datos</td>
+            <td class="cal" rowspan="2">Calculo III</td>
+        </tr>
+        <tr>
+            <th>01:00 - 02:00 PM</th>
+        </tr>
+        <tr>
+            <th>02:00 - 03:00 PM</th>
+                <td class="vacio" rowspan="2"></td>
+                <td class="fisi" rowspan="2">Fisica Mecanica</td>
+                <td class="vacio" rowspan="2"></td>
+                <td class="fisi" rowspan="2">Fisica Mecanica</td>
+            </tr>
+
+            <tr>
+                <th>03:00 - 04:00 PM</th>
+            </tr>
+        </tbody>    
+        </table>
+        </div>
+    </div>
+    
+   </main>
+   <footer>
+    &copy;Jair Guerrero Y Juan Camilo Hernández
+</footer>
+   
+</div>
+</body>
+</html>
